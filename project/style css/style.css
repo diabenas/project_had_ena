@@ -1,0 +1,63 @@
+/* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
+/* Style inputs with type="text", select elements and textareas */
+input[type=message], input[type=email], input[type=text], textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  height: 70%;
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 30px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  background-color: #2290bb;
+  color: rgba(255, 255, 255, 0.548);
+  padding: 12px 15px;
+  border: none;
+  border-radius: 19px;
+  margin-left:30% ;
+  width: 50%;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+  background-color: #309db1;
+}
+
+.css-5rimss p {
+  font-size:25px;
+    font-weight:15px;
+    font-family:'Times New Roman', Times, serif;
+}
+.css-5rimss e1nzilvr4 p{
+  font-size:30.5px;
+  font-weight:30px;
+}
+/* Hide Streamlit Branding */
+#MainMenu {visibility: hidden;}
+footer {  
+ visibility:hidden;
+}
+
+footer:after{
+
+  content:"Copyrights ©2022-2023 DIABETES PREDICTION SYSTEM";
+  display:flex;
+  position:relative;
+  color:aliceblue;
+  padding:5px;
+  background-color:rgb(119,182, 182);
+  width:100%;
+  height:50px;
+  font-size:15px;
+  margin-top:25px;
+  padding:5px;
+  font-family:'Times New Roman', Times, serif;
+  top:10px;
+  visibility:visible;
+}
